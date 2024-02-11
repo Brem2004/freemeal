@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-image: url(https://www.imaherb.com/wp-content/uploads/2018/12/timg.jpg);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: url(https://th.bing.com/th?id=OSK.4afdcb60149d1cf2ba21dfc0f9509771&w=176&h=176&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1);
+    color: #800080;
+    padding: 1rem 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 900;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    background-image: url(https://th.bing.com/th/id/OIP.E_5AeDrhtH9h_7iAZlQJDAHaE8?rs=1&pid=ImgDetMain);
+    color: #800000;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+     .dish {
+        flex: 0 0 calc(50% - 1rem);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .dish {
+       flex: 0 0 100%;
+   }
+
+   main {
+       padding: 1rem;
+   }
+   
+   }
